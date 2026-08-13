@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: #09141c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    height:90px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+nav .part1{
+    height:100%;
+    width:30%; 
+}
+.part1 span{
+    padding:5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-size: 14px;
+    color: #4a6c88;
+}
+.part1 h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-size: 40px;
+}
+nav .part2{
+    height:100%;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+   
+}
+nav .part3{
+    height:100%;
+    width:30%; 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.part3 button{
+    height:40px;
+    width:120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:10px;
+    background-color: #101a26;
+    color: white;
+    border-radius: 15px; 
+}
+.part3 button img{
+    filter: brightness(0) invert(1);   
+}
+section{
+    height:450px;
+    width:100%;
+    padding:10px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+section .card1{
+    height:100%;
+    width: 35%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+section .card1 img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    display:block;
+    
+}
+section .card2{
+    height:100%;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card2 .card2-image {
+    width: 100%;
+    height: 75%;
+    flex: 0 0 75%;
+    overflow: hidden;
+}
+.card2 .card2-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card2 .card2-content {
+    width: 100%;
+    height: 30%;
+    padding:25px;
+    background-color:#3a5168;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+section .card3{
+     height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card3 .card3-image {
+    width: 100%;
+    height: 75%;
+    flex: 0 0 75%;
+    overflow: hidden;
+}
+.card3 .card3-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.card3 .card3-content {
+    width: 100%;
+    height: 30%;
+    padding:25px;
+    background-color: #3a5168;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+section .card4{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card4 .card4-image {
+    width: 100%;
+    height: 75%;
+    flex: 0 0 75%;
+    overflow: hidden;
+}
+.card4 .card4-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.card4 .card4-content {
+    width: 100%;
+    height: 30%;
+    padding: 25px;
+    background-color: #3a5168;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
+#lower{
+    height:400px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}  
+#lower .lowercard1{
+    height:100%;
+    width: 18%;
+    border-radius: 15px;
+    overflow: hidden;
+     display: flex;
+    flex-direction: column;
+}
+.lowercard1 .lowercard1-image {
+    width: 100%;
+    height: 75%;
+    flex: 0 0 75%;
+    overflow: hidden;
+}
+.lowercard1 .lowercard1-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.lowercard1 .lowercard1-content {
+    width: 100%;
+    height: 25%;
+    padding: 18px;
+    background-color: #3a5168;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
+#lower .lowercard2{
+    height:100%;
+    width: 18%;
+    border-radius: 15px;
+    overflow: hidden;
+     display: flex;
+    flex-direction: column;
+}
+.lowercard2 .lowercard2-image {
+    width: 100%;
+    height: 75%;
+    flex: 0 0 75%;
+    overflow: hidden;
+}
+.lowercard2 .lowercard2-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.lowercard2 .lowercard2-content {
+    width: 100%;
+    height: 25%;
+    padding: 18px;
+    background-color: #3a5168;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
+#lower .lowercard3{
+    height:100%;
+    width: 18%;
+    border-radius: 15px;
+    overflow: hidden;
+     display: flex;
+    flex-direction: column;
+}
+.lowercard3 .lowercard3-image {
+    width: 100%;
+    height: 75%;
+    flex: 0 0 75%;
+    overflow: hidden;
+}
+.lowercard3 .lowercard3-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.lowercard3 .lowercard3-content {
+    width: 100%;
+    height: 25%;
+    padding: 18px;
+    background-color: #3a5168;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
+#lower .lowercard4{
+    height:100%;
+    width: 18%;
+    border-radius: 15px;
+    overflow: hidden;
+     display: flex;
+    flex-direction: column;
+}
+.lowercard4 .lowercard4-image {
+    width: 100%;
+    height: 75%;
+    flex: 0 0 75%;
+    overflow: hidden;
+}
+.lowercard4 .lowercard4-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.lowercard4 .lowercard4-content {
+    width: 100%;
+    height: 25%;
+    padding: 18px;
+    background-color: #3a5168;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
+#lower .lowercard5{
+    height:100%;
+    width: 18%;
+    border-radius: 15px;
+    overflow: hidden;
+     display: flex;
+    flex-direction: column;
+}
+.lowercard5 .lowercard5-image {
+    width: 100%;
+    height: 75%;
+    flex: 0 0 75%;
+    overflow: hidden;
+}
+.lowercard5 .lowercard5-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.lowercard5 .lowercard5-content {
+    width: 100%;
+    height: 25%;
+    padding: 18px;
+    background-color: #3a5168;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+}
