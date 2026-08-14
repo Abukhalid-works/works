@@ -1,0 +1,354 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    height:100%;
+    width:100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 24%;
+    grid-template-rows: 30% 20% 23% 25%;
+
+    grid-template-areas:
+    "left-top top-center1 top-center2 top-right"
+    "left-top center center top-right"
+    "left-center center center bottom-right"
+    "left-bottom left-bottom center-bottom bottom-right";
+    gap:3px;
+    
+}
+.left-top{
+    background-color:#b797a2;
+    grid-area: left-top;
+    border-radius: 20px;
+    margin:5px;
+    display: flex;
+    align-items: center;
+}
+.left-top .img4{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.img4 img{
+    height:100%;
+    width:100%;
+}
+.left-center{
+    background-color:#fdfdfd;
+    grid-area: left-center;
+    border-radius: 20px;
+    margin:5px;
+    padding:20px;
+    position: relative;
+}
+.fitness-brand {
+   display: flex;
+   height:30px;
+   gap:15px;
+   margin-top: 10px;
+}
+.left-center h4{
+    font-size: 15;
+    font-weight: 800;
+}
+.brand-text p{
+    font-size:10px;
+}
+
+.left-bottom{
+    background-color: bisque;
+    grid-area: left-bottom;
+    border-radius: 20px;
+    margin:5px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.left img{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.left button{
+    position: absolute;
+    left:220px;
+    bottom:20px;
+    width:80px;
+    height:40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    padding:10px;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.number p{
+    font-size: 10px;
+    font-weight:500;
+}
+.trainers {
+    display: flex;
+    align-items: start;
+}
+.trainers img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left:-10px;
+}
+
+.top-center1{
+    background-color: #fed803;
+    grid-area: top-center1;
+    border-radius: 20px;
+    margin-top:5px;
+    display: flex;
+    flex-direction: column;
+}
+.top-center1 .toplogo{
+    height:70px;
+    width:100%;
+    margin-left: 35px;
+    padding:3px;
+}
+.toplogo img{
+    height:100%;
+}
+.middlelogo{
+    height: 80px;
+    padding:15px;
+}
+.middlelogo h3{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.bottomlogo1{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    
+}
+.bottomlogo1 img{
+   height:50%;
+}
+
+
+.top-center2{
+    background-color: #fefefe;
+    grid-area: top-center2;
+    border-radius: 20px;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+}
+.top-center2 .upperbox{
+    height:60px;
+    width: 100%;
+    padding:20px;
+}
+.top-center2 .upperbox p{
+    font-size: 10px;
+}
+.top-center2 .middlebox{
+    height:70px;
+    width:100%;
+    padding:20px;
+}
+.top-center2 .middlebox p{
+    font-size: 10px;
+}
+.top-center2 .middlebox h3{
+    font-weight: 400;
+}
+.top-center2 .lowerbox{
+    height:75px;
+    width:100%;
+    padding:1px;
+    object-fit: cover;
+    display: flex;
+}
+.lowerbox img{
+    border-radius: 15px;
+}
+
+.center{
+    background-color: #fdf7e3;
+    grid-area: center;
+    border-radius: 20px;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.logo img{
+    width:80px;
+    height:80px;
+    object-fit: contain;
+}
+.name h1{
+    margin:0;
+    font-size:60px;
+}
+.center-bottom{
+    background-color: #c8b8b4;
+    grid-area: center-bottom;
+    border-radius: 20px;
+    margin:5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.center-bottom .bgimage{
+    height:100%;
+    width:100%;
+
+}
+.center-bottom .bgimage img{
+    width:100%;
+    height:100%;
+    display: block;
+    object-fit: cover;
+}
+.center-bottom .upperimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.center-bottom .upperimage img {
+    width: 100%;
+    height: 120%;
+    object-fit: contain;
+}
+.top-right{
+    background-color:#fefefe;
+    grid-area: top-right;
+    border-radius: 20px;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+}
+.top-right .upperone{
+    height:60px;
+    width: 100%;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+}
+.upperone .box1{
+    width:15px;
+    height:20px;
+    gap:10px;
+    background-color: black;
+}
+.upperone .box2{
+    width:15px;
+    height:20px;
+    margin-left:5px;
+    background-color: yellow;
+}
+.upperone .timestext{
+    font-weight: 500;
+    margin-left: 15px;
+}
+.top-right .centerone{
+    height:140px;
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.centerone h1{
+    font-weight: 700;
+}
+.bottomone{
+    height:calc(100% - 140px - 60px); 
+    margin-left:20px;;
+    display: flex;
+    align-items: center;
+   
+}
+.bottomone .bottombox{
+    height:80%;
+    width:80%;
+    padding:15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color:#efb1a1;
+}
+.bottombox .location{
+    display: flex;
+    gap: 10px;
+}
+.bottombox i{
+    font-size: 30px;
+
+}
+.bottombox p{
+    font-size:12px;
+    font-weight: 500;
+}
+.bottombox .linktext{
+    padding: 10px;
+    font-weight: 600;
+}
+.bottom-right{
+    background-color: #f2b7a9;
+    grid-area: bottom-right;
+    border-radius: 20px;
+    margin:5px;
+    display: flex;
+    align-items: center;
+}
+.bottom-right .bottomimage{
+    height:100%;
+    width:100%;
+    object-fit: cover; 
+}
+.bottomimage img{
+    height:100%;
+    width:100%;
+}
