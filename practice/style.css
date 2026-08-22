@@ -1,0 +1,1423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.navbar{
+    height:90px;
+    width:100%;
+    padding:10px 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.logo img{
+    height:60px;
+}
+.logo h3{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.buttons{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+.buttons button{
+    height:auto;
+    padding:10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: 500;
+}
+.signup {
+    overflow: hidden;
+}
+.button-text {
+    height: 20px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+.button-text span {
+    height: 20px;
+    line-height: 20px;
+
+    transition: transform 0.5s ease;
+}
+.signup:hover .button-text span {
+    transform: translateY(-20px);
+}
+.log{
+    background-color: black;
+    color: white;
+}
+.log:hover{
+    background-color: white;
+    color:black;
+}
+.section1{
+    height:300px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.content p{
+    margin-top: 20px;
+    line-height: 1.5;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    font-size: 20px;
+}
+.section2{
+    height:100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar{
+    height:60px;
+    width:50%;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    position: relative;
+}
+.searchbar input{
+    flex:1;
+    padding:20px;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.119);
+    border:none;
+    border-radius: 30px;
+}
+.searchbar .searchtype{
+    height:100%;
+    position:absolute;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+    padding: 0 20px;
+    font-size:18px;
+}
+.searchbar .searchicon{
+    border: none;
+    height:40px;
+    width:40px;
+    position:absolute;
+    margin-left: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ea4c89;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.searchbar input:hover{
+    background-color: transparent;
+}
+.section3{
+    height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.buttonssection{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.buttonssection #button1{
+    padding: 5px;
+    border-radius: 15px;
+    border:none;
+    background:transparent;
+    font-weight: 500;
+    color: #abaaba;
+}
+.buttonssection #button2{
+    padding: 5px;
+    width:105px;
+    border-radius: 15px;
+    border:none;
+    background-color: #21212240;
+    font-weight: 500;
+    color: black;
+}
+.buttonssection #button3{
+    padding: 5px;
+    width:105px;
+    border-radius: 15px;
+    border:none;
+    background-color: #21212240;
+    font-weight: 500;
+    color: black;
+}
+.buttonssection #button4{
+    padding: 5px;
+    width:105px;
+    border-radius: 15px;
+    border:none;
+    background-color: #21212240;
+    font-weight: 500;
+    color: black;
+}
+.buttonssection #button5{
+     padding: 5px;
+    width:105px;
+    border-radius: 15px;
+    border:none;
+    background-color: #21212240;
+    font-weight: 500;
+    color: black;
+}
+.buttonssection #button6{
+    padding: 5px;
+    width:105px;
+    border-radius: 15px;
+    border:none;
+    background-color: #21212240;
+    font-weight: 500;
+    color: black;
+}
+.buttonssection #button7{
+    padding: 5px;
+    width:105px;
+    border-radius: 15px;
+    border:none;
+    background-color: #21212240;
+    font-weight: 500;
+    color: black;
+}
+
+#button2:hover,
+#button3:hover,
+#button4:hover,
+#button5:hover,
+#button6:hover,
+#button7:hover {
+    background: transparent;
+}
+.section4{
+    height:80px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popularbtn{
+    margin-left: 30px;
+}
+.popularbtn button{
+    display: flex;
+    align-items: center;
+    padding:5px 15px;
+    height:100%;
+    gap:10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.popularbtn i{
+    font-size: 25px;
+}
+.headings{
+    display: flex;
+    align-items: center;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    gap:30px;
+    
+}
+.headings button{
+    padding:10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+}
+.headings #selected{
+    padding:10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #21212240;
+}
+.filters{
+    margin-right:40px;
+}
+.filters button{
+    display: flex;
+    align-items: center;
+    padding:10px 15px;
+    gap:15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.section5{
+    padding:10px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 350px);
+    grid-template-areas: 
+    "card1 card2 card3 card4"
+    "card5 card6 card7 card8"
+    "card9 card10 card11 card12";
+    gap:15px;
+}
+
+.section5 .card1{
+    grid-area: card1;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    object-fit: cover;
+    position: relative;
+}
+.card1>img{
+    width:100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card1:hover .imageoverlay {
+    opacity: 1;
+}
+
+.belowcard1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard1 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext1{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext1 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext1 .ri-heart-fill:hover {
+    color: red;
+}
+
+.section5 .card2{
+    grid-area: card2;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card2>video{
+    height:300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.imageoverlay1{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: transform 0.4s ease;
+}
+.card2:hover .imageoverlay1 {
+    opacity: 1;
+}
+.overlayicons1{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons1 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.belowcard2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 10px 10px;
+}
+.belowleft2{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowleft2 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext2{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.belowlefttext2 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext2 .ri-heart-fill:hover {
+    color: red;
+}
+.section5 .card3{
+    grid-area: card3;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card3>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay2{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons2{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons2 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card3:hover .imageoverlay2 {
+    opacity: 1;
+}
+
+.belowcard3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard3 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext3{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext3 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext3 .ri-heart-fill:hover {
+    color: red;
+}
+
+.section5 .card4{
+    grid-area: card4;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card4>video{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay4{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons4{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons4 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card4:hover .imageoverlay4 {
+    opacity: 1;
+}
+
+.belowcard4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard4 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext4{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext4 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext4 .ri-heart-fill:hover {
+    color: red;
+}
+.section5 .card5{
+    grid-area: card5;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card5>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay5{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons5{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons5 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card5:hover .imageoverlay5 {
+    opacity: 1;
+}
+
+.belowcard5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft5{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard5 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext5{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext5 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext5 .ri-heart-fill:hover {
+    color: red;
+}
+
+.section5 .card6{
+    grid-area: card6;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card6>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay6{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons6{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons6 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card6:hover .imageoverlay6 {
+    opacity: 1;
+}
+
+.belowcard6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft6{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard6 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext6{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext6 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext6 .ri-heart-fill:hover {
+    color: red;
+}
+.section5 .card7{
+    grid-area: card7;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card7>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay7{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons7{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons7 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card7:hover .imageoverlay7 {
+    opacity: 1;
+}
+
+.belowcard7{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft7{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard7 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext7{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext7 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext7 .ri-heart-fill:hover {
+    color: red;
+}
+.section5 .card8{
+    grid-area: card8;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card8>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay8{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons8{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons8 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card8:hover .imageoverlay8 {
+    opacity: 1;
+}
+
+.belowcard8{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft8{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard8 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext8{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext8 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext8 .ri-heart-fill:hover {
+    color: red;
+}
+.section5 .card9{
+    grid-area: card9;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card9>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay9{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons9{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons9 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card9:hover .imageoverlay9 {
+    opacity: 1;
+}
+
+.belowcard9{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft9{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard9 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext9{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext9 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext9 .ri-heart-fill:hover {
+    color: red;
+}
+.section5 .card10{
+    grid-area: card10;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card10>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay10{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons10{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons10 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card10:hover .imageoverlay10 {
+    opacity: 1;
+}
+
+.belowcard10{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft10{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard10 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext10{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext10 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext10 .ri-heart-fill:hover {
+    color: red;
+}
+.section5 .card11{
+    grid-area: card11;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card11>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay11{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons11{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons11 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card11:hover .imageoverlay11 {
+    opacity: 1;
+}
+
+.belowcard11{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft11{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard11 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext11{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext11 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext11 .ri-heart-fill:hover {
+    color: red;
+}
+.section5 .card12{
+    grid-area: card12;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.card12>img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.imageoverlay12{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9),
+        transparent
+    );
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.overlayicons12{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.overlayicons12 i{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.card12:hover .imageoverlay12 {
+    opacity: 1;
+}
+
+.belowcard12{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    
+}
+.belowleft12{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.belowcard12 img{
+    height:20px;
+    width: 20px;
+    border-radius: 50px;
+}
+.belowlefttext12{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.belowlefttext12 .ri-heart-fill {
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.belowlefttext12 .ri-heart-fill:hover {
+    color: red;
+}
+.section6{
+    height: 90px;
+    width:100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.signcon{
+    height:30px;
+    width:170px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+}
+.signcon p{
+    font-size: 20px;
+}
+.uparrow{
+    position: absolute;
+    right: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.uparrow button {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.section7 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section7 .scrollimgs {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+}
+.section7 .scrollimgs img{
+    height:100px;
+    width: 150px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+@keyframes scroll {
+    from{
+        transform: translatex(0);
+    }
+    to{
+        transform: translatex(-50%);
+    }
+    
+}
+.section8{
+    height:100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section8 .divright{
+    height:80px;
+    width:200px;
+} 
+.divright img{
+    height: 70px;
+}
+.section8 .divcenter{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.divcenter p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.divleft{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.divleft i{
+    font-size: 25px;
+}
+.footer{
+    height:100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerleft{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    color: #afb2c7;
+    gap:15px;
+
+}
+.footerright{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    color: #afb2c7;
+    margin-right: 100px;
+}
+
+
